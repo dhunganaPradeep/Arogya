@@ -1,18 +1,88 @@
-author:
-  name: "Pradip Dhungana"
-  bio: "Developer of Arogya, documenting Nepal's medicinal herbs"
-  location: "Nepal"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://dhunganapradip.com.np"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/dhunganaPradeep"
+title: Arogya
+description: A comprehensive collection of herbs found across Nepal, highlighting their medicinal benefits and traditional uses.
+url: "https://dhunganapradip.com.np"
+baseurl: ""
+author: "Pradip Dhungana"
+repository: "dhunganaPradeep/arogya"
 
-theme: jekyll-theme-minimal
+# Social media and contact information
+social:
+  twitter: 
+  github: dhunganaPradeep
+  email: 
+
+# Build settings
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+
+# Language settings
+languages:
+  - english
+  - nepali
+default_language: english
+
+# Metadata settings
+keywords: medicinal herbs, Nepal herbs, traditional medicine, herbal remedies, Nepali medicine
+timezone: Asia/Kathmandu
+
+# Google Analytics
+google_analytics: 
+
+# Collections
+collections:
+  herbs:
+    output: true
+    permalink: /herbs/:path/
+  regions:
+    output: true
+    permalink: /regions/:path/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "herbs"
+    values:
+      layout: "herb"
+  -
+    scope:
+      path: ""
+      type: "regions"
+    values:
+      layout: "region"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+  - LICENSE
+  - CNAME
+  - src
+  - public
+  - package.json
+  - package-lock.json
+  - vite.config.js
+  - tsconfig.json
+
+# Custom variables
+project_date: "2025-04-08"
+version: "1.0.0"
+
+# GitHub Pages specific settings
+github:
+  is_project_page: true
+  owner_name: Pradip Dhungana
+  repository_name: arogya

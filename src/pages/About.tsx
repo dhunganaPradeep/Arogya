@@ -84,7 +84,7 @@ const About = () => {
                   वनस्पतिशास्त्री, परम्परागत औषधि अभ्यासकर्ता, र स्थानीय समुदायहरूसँग काम गर्छौं।
                 </p>
                 
-                <h2>श्रेय र श्रद्धाञ्जली</h2>
+                <h2>श्रेय</h2>
                 <p>
                   यो परियोजना <a href="https://dhunganapradip.com.np" target="_blank" rel="noopener noreferrer" className="font-medium underline underline-offset-4 hover:text-primary">प्रदीप ढुंगाना</a> द्वारा सिर्जना गरिएको थियो र कायम राखिएको छ,
                   जसले नेपालका औषधीय जडीबुटीहरूको अनुसन्धान र दस्तावेजीकरणमा महत्त्वपूर्ण समय समर्पित गरेका छन्।

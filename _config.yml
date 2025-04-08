@@ -1,0 +1,18 @@
+author:
+  name: "Pradip Dhungana"
+  bio: "Developer of Arogya, documenting Nepal's medicinal herbs"
+  location: "Nepal"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://dhunganapradip.com.np"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dhunganaPradeep"
+
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate

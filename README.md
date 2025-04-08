@@ -2,6 +2,7 @@
 
 ![Arogya Banner](public/img/thumbnail.svg)
 
+#[Live Preview](https://arogyaa.vercel.app/)
 ## Overview
 
 Arogya is a comprehensive web application dedicated to documenting and showcasing the rich herbal heritage of Nepal. It provides detailed information about various medicinal herbs found across different ecological regions of Nepal, highlighting their traditional uses, medicinal properties, scientific research, and cultural significance.

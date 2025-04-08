@@ -1,0 +1,129 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 142 33% 96%;
+    --foreground: 142 50% 12%;
+    
+    --card: 142 25% 97%;
+    --card-foreground: 142 50% 12%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 142 50% 12%;
+    
+    --primary: 142 64% 40%;
+    --primary-foreground: 142 100% 97%;
+    
+    --secondary: 142 25% 92%;
+    --secondary-foreground: 142 64% 25%;
+    
+    --muted: 142 25% 92%;
+    --muted-foreground: 142 30% 40%;
+    
+    --accent: 142 25% 88%;
+    --accent-foreground: 142 64% 25%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 142 30% 86%;
+    --input: 142 30% 86%;
+    --ring: 142 64% 50%;
+    
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 142 50% 8%;
+    --foreground: 142 20% 92%;
+    
+    --card: 142 50% 10%;
+    --card-foreground: 142 20% 92%;
+    
+    --popover: 142 50% 6%;
+    --popover-foreground: 142 20% 92%;
+    
+    --primary: 142 64% 45%;
+    --primary-foreground: 142 70% 97%;
+    
+    --secondary: 142 40% 16%;
+    --secondary-foreground: 142 20% 90%;
+    
+    --muted: 142 40% 16%;
+    --muted-foreground: 142 20% 70%;
+    
+    --accent: 142 40% 20%;
+    --accent-foreground: 142 20% 90%;
+    
+    --destructive: 0 74% 42%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 142 40% 20%;
+    --input: 142 40% 20%;
+    --ring: 142 64% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  .leaf-icon {
+    @apply text-herb-500 animate-leaf-sway;
+  }
+  
+  .herb-card {
+    @apply bg-card rounded-lg border border-border p-4 transition-all duration-300 hover:shadow-md hover:border-herb-400;
+  }
+  
+  .herb-card-image {
+    @apply rounded-md object-cover w-full aspect-square;
+  }
+  
+  .herb-detail-image {
+    @apply rounded-lg object-cover w-full aspect-video;
+  }
+  
+  .herb-tag {
+    @apply inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-herb-100 text-herb-900 hover:bg-herb-200/80 dark:bg-herb-800 dark:text-herb-100 dark:hover:bg-herb-700/80;
+  }
+}
+
+@layer utilities {
+  .fade-in {
+    @apply animate-fade-in;
+  }
+  
+  .slide-in {
+    @apply animate-slide-in;
+  }
+}

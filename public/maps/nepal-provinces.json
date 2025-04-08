@@ -1,0 +1,138 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "1",
+          "name": "Province 1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [87.8, 26.3],
+              [87.8, 28.1],
+              [86.5, 28.1],
+              [86.5, 26.3],
+              [87.8, 26.3]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "2",
+          "name": "Madhesh Province"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [86.5, 26.3],
+              [86.5, 27.2],
+              [85.0, 27.2],
+              [85.0, 26.3],
+              [86.5, 26.3]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "3",
+          "name": "Bagmati Province"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [86.5, 27.2],
+              [86.5, 28.5],
+              [84.7, 28.5],
+              [84.7, 27.2],
+              [86.5, 27.2]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "4",
+          "name": "Gandaki Province"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [84.7, 27.5],
+              [84.7, 29.0],
+              [83.0, 29.0],
+              [83.0, 27.5],
+              [84.7, 27.5]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "5",
+          "name": "Lumbini Province"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [83.0, 27.0],
+              [83.0, 29.0],
+              [81.5, 29.0],
+              [81.5, 27.0],
+              [83.0, 27.0]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "6",
+          "name": "Karnali Province"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [81.5, 29.0],
+              [81.5, 30.5],
+              [83.0, 30.5],
+              [83.0, 29.0],
+              [81.5, 29.0]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "7",
+          "name": "Sudurpashchim Province"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [80.0, 28.5],
+              [80.0, 30.5],
+              [81.5, 30.5],
+              [81.5, 28.5],
+              [80.0, 28.5]
+            ]
+          ]
+        }
+      }
+    ]
+  }

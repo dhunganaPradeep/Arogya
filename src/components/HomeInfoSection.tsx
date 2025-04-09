@@ -45,7 +45,7 @@ const HomeInfoSection = () => {
               </div>
               
               <img 
-                src={`/herb-${index + 1}.jpg`} 
+                src={`/img/herb-${index + 1}.jpg`} 
                 alt={section.imageAlt[language]} 
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 onError={(e) => {

@@ -272,7 +272,7 @@ const Home = () => {
             <div className="col-span-1 lg:col-span-2 relative bg-herb-50 dark:bg-herb-900/40 rounded-lg overflow-hidden p-4">
               <div className="aspect-[4/3] relative bg-gradient-to-br from-herb-100 to-white dark:from-herb-800/30 dark:to-herb-950 rounded-lg overflow-hidden shadow-lg border border-herb-200 dark:border-herb-800">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Topography_of_Nepal.jpg" 
+                  src="/img/mapp.png" 
                   alt="Nepal's ecological regions" 
                   className="w-full h-full object-contain p-4"
                   onError={(e) => {
@@ -290,7 +290,7 @@ const Home = () => {
                   </div>
                 </div>
                 
-                <div className="absolute top-1/2 left-2/3 w-12 h-12 animate-pulse" style={{ animationDelay: "0.5s" }}>
+                <div className="absolute bottom-1/3 left-2/3 w-12 h-12 animate-pulse" style={{ animationDelay: "0.5s" }}>
                   <div className="absolute inset-0 bg-herb-500/20 rounded-full animate-ping"></div>
                   <div className="absolute inset-3 bg-herb-500 rounded-full"></div>
                   <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 whitespace-nowrap bg-herb-600 text-white px-2 py-1 rounded text-xs font-medium shadow-md">
@@ -298,7 +298,7 @@ const Home = () => {
                   </div>
                 </div>
                 
-                <div className="absolute bottom-1/4 left-1/3 w-12 h-12 animate-pulse" style={{ animationDelay: "1s" }}>
+                <div className="absolute bottom-1/3 left-1/2 w-12 h-12 animate-pulse" style={{ animationDelay: "1s" }}>
                   <div className="absolute inset-0 bg-herb-500/20 rounded-full animate-ping"></div>
                   <div className="absolute inset-3 bg-herb-500 rounded-full"></div>
                   <div className="absolute top-full left-1/2 -translate-x-1/2 mt-1 whitespace-nowrap bg-herb-600 text-white px-2 py-1 rounded text-xs font-medium shadow-md">

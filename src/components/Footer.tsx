@@ -1,5 +1,5 @@
 
-import { Leaf, Mail, MapPin, Phone } from "lucide-react";
+import { Leaf } from "lucide-react";
 import { useLanguage } from "./LanguageProvider";
 import { Link } from "react-router-dom";
 
@@ -71,28 +71,6 @@ const Footer = () => {
             </ul>
           </div>
           
-          {/* Contact */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">
-              {language === "en" ? "Contact Info" : "सम्पर्क जानकारी"}
-            </h3>
-            <address className="not-italic">
-              <ul className="space-y-3 text-sm">
-                <li className="flex items-center gap-2 text-muted-foreground">
-                  <MapPin className="h-4 w-4 text-herb-500" />
-                  <span>Kathmandu, Nepal</span>
-                </li>
-                <li className="flex items-center gap-2 text-muted-foreground">
-                  <Phone className="h-4 w-4 text-herb-500" />
-                  <span>+977-9800000000</span>
-                </li>
-                <li className="flex items-center gap-2 text-muted-foreground">
-                  <Mail className="h-4 w-4 text-herb-500" />
-                  <span>info@arogya.np</span>
-                </li>
-              </ul>
-            </address>
-          </div>
         </div>
         
         <div className="border-t pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
@@ -108,7 +86,7 @@ const Footer = () => {
             </a>
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-muted-foreground hover:text-primary">
+            <a href="https://www.facebook.com/thatguypradip/" target="_blank" className="text-muted-foreground hover:text-primary">
               <span className="sr-only">Facebook</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -125,8 +103,8 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
               </svg>
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary">
-              <span className="sr-only">Twitter</span>
+            <a href="https://github.com/dhunganaPradeep" target="_blank" className="text-muted-foreground hover:text-primary">
+              <span className="sr-only">GitHub</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -139,10 +117,10 @@ const Footer = () => {
                 strokeLinejoin="round"
                 className="h-5 w-5"
               >
-                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-              </svg>
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary">
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.13-1.1-1.43-1.1-1.43-.9-.61.07-.6.07-.6 1 .07 1.53 1 1.53 1 .88 1.51 2.31 1.07 2.88.82.09-.64.34-1.07.62-1.32-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.56 9.56 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.83-2.35 4.68-4.58 4.92.35.3.66.89.66 1.8v2.67c0 .27.18.58.69.48A10.02 10.02 0 0 0 22 12c0-5.52-4.48-10-10-10Z"/>
+            </svg>
+          </a>
+            <a href="https://www.instagram.com/pradeep_dhungana/" target="_blank" className="text-muted-foreground hover:text-primary">
               <span className="sr-only">Instagram</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
